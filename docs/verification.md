@@ -53,7 +53,7 @@ Observed result: `Wrote design-review.ics`; output contained `BEGIN:VCALENDAR`, 
 | Dependency audit | pass for built artifact path; global environment audit separately found unrelated `httpcore2`/`httpx2` advisories and unpublished local packages |
 | Security scan | pass: Codex Security scan `40d62cad-b0cb-4602-9f46-da99172874bf`; 16/16 surfaces reviewed; 0 reportable findings; Daybreak access unavailable, and the current tree was manually re-reviewed after the final file-size guard |
 | Git diff check | pending until final verification |
-| GitHub Actions | pending until push |
-| Release | pending until CI is green |
+| GitHub Actions | pass: 12/12 matrix jobs green for commit `2b7d404`; [run 35034861781](https://github.com/juwonllee2024-dotcom/whenfound/actions/runs/35034861781) |
+| Release | pass: [v0.1.0](https://github.com/juwonllee2024-dotcom/whenfound/releases/tag/v0.1.0) published with wheel and sdist assets |
 
 This record is updated only after each command is run fresh.
