@@ -35,4 +35,4 @@ jobs:
       - name: Build
         run: python -m build
       - name: Dependency audit
-        run: pip-audit --local
+        run: pip-audit --path dist

@@ -48,7 +48,7 @@ Observed result: `Wrote design-review.ics`; output contained `BEGIN:VCALENDAR`, 
 | Ruff lint | pass: `All checks passed!` |
 | Ruff format | pass: 11 files already formatted |
 | Mypy strict | pass: no issues in 5 source files |
-| Build wheel/sdist | pass: wheel and sdist created; wheel SHA-256 `e5e2b7a816c7bd04324ff08a6bc877194dacfb1f414ddbf5276b0f08f93539cb`; sdist SHA-256 `add1ec24e7a7499462fb7716a5e26594bef86a2c99eb2de1740119e24ed61d1d` |
+| Build wheel/sdist | pass: wheel and sdist created; wheel SHA-256 `f2c7af1c89041db8672c7d20ee6b048626d67553b36ea062742f6c27423a3522`; sdist SHA-256 `1e81298a140e228e0dec3226e5f5d7a7798abf5a0e9666a5bfc66051994c15e1` |
 | Package smoke test | pass: isolated wheel install, preview, and export |
 | Dependency audit | pass for built artifact path; global environment audit separately found unrelated `httpcore2`/`httpx2` advisories and unpublished local packages |
 | Security scan | pass: Codex Security scan `40d62cad-b0cb-4602-9f46-da99172874bf`; 16/16 surfaces reviewed; 0 reportable findings; Daybreak access unavailable, and the current tree was manually re-reviewed after the final file-size guard |
