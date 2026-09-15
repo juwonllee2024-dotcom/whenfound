@@ -31,7 +31,7 @@ jobs:
       - name: Format check
         run: ruff format --check .
       - name: Type check
-        run: mypy
+        run: mypy src
       - name: Build
         run: python -m build
       - name: Dependency audit
